@@ -16,12 +16,29 @@
   height: auto !important;
   max-width: 100% !important;
   object-fit: cover !important;
+  cursor: pointer;
+}
+
+.FeaturedAuthor__info--image {
+  width: 30px;
+  height: 30px;
+  background-color: #031624;
+  clip-path: circle();
+}
+
+.FeaturedPost__Container--box--text h3 {
+  cursor: pointer;
 }
 
 .FeaturedPost__Container--box--text p {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.FeaturedAuthor__info {
+  display: flex;
+  align-items: center;
 }
 
 .FeaturedPost__Container--box--text,

@@ -161,6 +161,8 @@ const FeaturedPost = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </div>
   );
 };
