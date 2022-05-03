@@ -3,3 +3,33 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2em;
 }
+
+.FeaturedPost__Container--box {
+  display: block;
+  box-shadow: 0px 3px 8px -1px rgb(50 50 71 / 5%),
+    0px 0px 1px rgb(12 26 75 / 24%);
+  border-radius: 2px;
+}
+
+.FeaturedPost__Container--box--image img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+}
+
+.FeaturedPost__Container--box--text p {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.FeaturedPost__Container--box--text,
+.FeaturedAuthor__info {
+  padding: 1em;
+}
+
+.FeaturedAuthor__info--text h6 {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0.5em;
+}
