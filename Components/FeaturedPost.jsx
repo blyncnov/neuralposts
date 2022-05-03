@@ -7,7 +7,7 @@ const FeaturedPost = () => {
       <div className="FeaturedPost__Container">
         <div className="FeaturedPost__Container--box">
           <div className="FeaturedPost__Container--box--image">
-            <Image src="/banner3.jpeg" alt="post" width={1000} height={500} />
+            <Image src="/banner6.jpeg" alt="post" width={1000} height={500} />
           </div>
           <div className="FeaturedPost__Container--box--text">
             <h6>February 3, 2022</h6>
@@ -50,7 +50,7 @@ const FeaturedPost = () => {
           <div className="FeaturedAuthor__info">
             <div className="FeaturedAuthor__info--image"></div>
             <div className="FeaturedAuthor__info--text">
-              <h6>Eran Olarewaju </h6>
+              <h6>Gracious Ayomide </h6>
 
               <h6>Growth & Marketing</h6>
             </div>
@@ -59,7 +59,7 @@ const FeaturedPost = () => {
 
         <div className="FeaturedPost__Container--box">
           <div className="FeaturedPost__Container--box--image">
-            <Image src="/banner3.jpeg" alt="post" width={1000} height={500} />
+            <Image src="/banner4.jpeg" alt="post" width={1000} height={500} />
           </div>
           <div className="FeaturedPost__Container--box--text">
             <h6>February 3, 2022</h6>
@@ -85,7 +85,7 @@ const FeaturedPost = () => {
 
         <div className="FeaturedPost__Container--box">
           <div className="FeaturedPost__Container--box--image">
-            <Image src="/banner3.jpeg" alt="post" width={1000} height={500} />
+            <Image src="/banner5.jpeg" alt="post" width={1000} height={500} />
           </div>
           <div className="FeaturedPost__Container--box--text">
             <h6>February 3, 2022</h6>
@@ -102,7 +102,7 @@ const FeaturedPost = () => {
           <div className="FeaturedAuthor__info">
             <div className="FeaturedAuthor__info--image"></div>
             <div className="FeaturedAuthor__info--text">
-              <h6>Eran Olarewaju </h6>
+              <h6>Vicky Dexter </h6>
 
               <h6>Growth & Marketing</h6>
             </div>
@@ -111,7 +111,7 @@ const FeaturedPost = () => {
 
         <div className="FeaturedPost__Container--box">
           <div className="FeaturedPost__Container--box--image">
-            <Image src="/banner3.jpeg" alt="post" width={1000} height={500} />
+            <Image src="/banner6.jpeg" alt="post" width={1000} height={500} />
           </div>
           <div className="FeaturedPost__Container--box--text">
             <h6>February 3, 2022</h6>
@@ -128,7 +128,7 @@ const FeaturedPost = () => {
           <div className="FeaturedAuthor__info">
             <div className="FeaturedAuthor__info--image"></div>
             <div className="FeaturedAuthor__info--text">
-              <h6>Eran Olarewaju </h6>
+              <h6>Liam Kent </h6>
 
               <h6>Growth & Marketing</h6>
             </div>

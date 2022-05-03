@@ -24,6 +24,7 @@
   height: 30px;
   background-color: #031624;
   clip-path: circle();
+  cursor: pointer;
 }
 
 .FeaturedPost__Container--box--text h3 {
@@ -50,6 +51,7 @@
 .FeaturedAuthor__info--text h6:first-child {
   font-size: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .FeaturedAuthor__info--text h6 {
