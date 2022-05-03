@@ -20,12 +20,14 @@
   padding: 0.5em;
   border-radius: 4px;
   transition: all 0.3s ease-in;
+  font-weight: 500;
 }
 
 .Category__list li:hover {
-  background-color: blue;
+  background-color: #105bc9;
   color: white;
   padding: 0.5em;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 500;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import FeaturedPost from "./FeaturedPost";
 
 const NewsCategory = () => {
   return (
@@ -15,6 +16,7 @@ const NewsCategory = () => {
             </ul>
           </div>
         </div>
+        <FeaturedPost />
       </div>
     </>
   );

@@ -5,6 +5,7 @@ import "../styles/css/Navigation.css";
 import "../styles/css/Header.css";
 import "../styles/css/Hero.css";
 import "../styles/css/Categories.css";
+import "../styles/css/FeaturedPost.css";
 
 function MyApp({ Component, pageProps }) {
   return (
