@@ -20,12 +20,18 @@
 
 .FeaturedPost__Container--box--text p {
   font-size: 10px;
+  line-height: 1.5;
   font-weight: 400;
 }
 
 .FeaturedPost__Container--box--text,
 .FeaturedAuthor__info {
   padding: 1em;
+}
+
+.FeaturedAuthor__info--text h6:first-child {
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .FeaturedAuthor__info--text h6 {
