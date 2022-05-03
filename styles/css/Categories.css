@@ -1,0 +1,31 @@
+.Category__Container {
+  /* width: 100%; */
+  padding: 2em 0;
+}
+
+.Category__Container--columns {
+  background-color: #f1f5f9;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+
+.Category__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.Category__list li {
+  padding: 0.5em;
+  border-radius: 4px;
+  transition: all 0.3s ease-in;
+}
+
+.Category__list li:hover {
+  background-color: blue;
+  color: white;
+  padding: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+}

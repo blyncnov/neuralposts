@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../Components/Header";
+import NewsCategory from "../Components/NewsCategory";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <NewsCategory />
     </>
   );
 }

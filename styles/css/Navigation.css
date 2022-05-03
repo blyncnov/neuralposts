@@ -29,7 +29,7 @@
   transform: scale(1.011);
 }
 
-ul {
+.Navigation__list {
   display: flex;
   gap: 1em;
 }
@@ -79,7 +79,7 @@ ul {
     color: white;
   }
 
-  ul {
+  .Navigation__list {
     display: none;
   }
 
