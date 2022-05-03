@@ -17,7 +17,7 @@ const Navigation = () => {
                 <li className="Navigation__list--item">Get Started</li>
               </ul>
               <div className="right">
-                <button className="Navigation__btn">Add News</button>
+                <button className="Navigation__btn">Sign In</button>
               </div>
             </div>
           </div>
