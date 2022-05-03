@@ -39,6 +39,7 @@
 .FeaturedAuthor__info {
   display: flex;
   align-items: center;
+  gap: 1em;
 }
 
 .FeaturedPost__Container--box--text,
