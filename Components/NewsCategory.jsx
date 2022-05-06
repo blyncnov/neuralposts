@@ -1,7 +1,7 @@
 import React from "react";
 import FeaturedPost from "./FeaturedPost";
 
-const NewsCategory = () => {
+const NewsCategory = ({ news }) => {
   return (
     <>
       <div className="NeuralPost__Constraint">
@@ -16,7 +16,7 @@ const NewsCategory = () => {
             </ul>
           </div>
         </div>
-        <FeaturedPost />
+        <FeaturedPost news={news} />
       </div>
     </>
   );
