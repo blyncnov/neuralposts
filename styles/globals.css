@@ -26,7 +26,6 @@ a {
   margin: 0 auto;
 }
 
-
 input,
 select {
   width: 100%;
@@ -51,7 +50,7 @@ textarea {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-button {
+.changepassword {
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
@@ -60,7 +59,6 @@ button {
   cursor: pointer;
   width: 100%;
 }
-
 
 .login__container {
   width: 100%;

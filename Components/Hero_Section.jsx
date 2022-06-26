@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,7 +14,11 @@ const Hero = () => {
           ipsa aliquid ducimus!
         </h4>
       </div>
-      <button className="Hero__btn">Get Started</button>
+      <Link href="/ninmc">
+        <a>
+          <button className="Hero__btn">Get Started</button>
+        </a>
+      </Link>
     </>
   );
 };
