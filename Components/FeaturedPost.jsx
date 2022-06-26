@@ -7,7 +7,7 @@ const FeaturedPost = ({ news }) => {
       <div className="FeaturedPost__Container">
         {news.articles.map((post) => {
           return (
-            <>
+            <div key={post.id}>
               <div className="FeaturedPost__Container--box">
                 <div className="FeaturedPost__Container--box--image">
                   <Image
@@ -32,7 +32,7 @@ const FeaturedPost = ({ news }) => {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           );
         })}
       </div>

@@ -22,9 +22,10 @@ export default function Home({ news }) {
 
 export async function getStaticProps() {
   const response = await fetch(
-    "https://newsapi.org/v2/everything?q=tesla&from=2022-04-06&sortBy=publishedAt&apiKey=7148b42a6168451e856aa1378a57b288"
+    "https://newsapi.org/v2/everything?q=tesla&from=2022-05-26&sortBy=publishedAt&apiKey=7148b42a6168451e856aa1378a57b288"
   );
   const news = await response.json();
+  console.log(news);
 
   return {
     props: {
