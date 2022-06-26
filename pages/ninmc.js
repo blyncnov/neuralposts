@@ -4,6 +4,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const ProfileComponent = () => {
+  const NiNMCRand = Math.floor(1000 + Math.random() * 100000000000);
+
   const createNewStudentHandler = async (e) => {
     e.preventDefault();
 
@@ -11,6 +13,7 @@ const ProfileComponent = () => {
     const lastName = e.target.lastName.value;
     const middleName = e.target.middleName.value;
     const ninmc = e.target.ninmc.value;
+
     const email = e.target.email.value;
     const phoneNumber = e.target.phoneNumber.value;
     const dateOfBirth = e.target.dateOfBirth.value;
@@ -22,7 +25,7 @@ const ProfileComponent = () => {
         firstName,
         lastName,
         middleName,
-        ninmc,
+        NiNMCRand,
         email,
         phoneNumber,
         dateOfBirth,
@@ -116,7 +119,7 @@ const ProfileComponent = () => {
                   placeholder="Enter your NINMC number"
                   name="ninmc"
                   maxLength={11}
-                  // value={userEditInfo.matricNo}
+                  value={NiNMCRand}
                   onChange={(e) => e.target.value}
                   required
                 />
