@@ -13,7 +13,6 @@ const ProfileComponent = () => {
     const lastName = e.target.lastName.value;
     const middleName = e.target.middleName.value;
     const ninmc = e.target.ninmc.value;
-
     const email = e.target.email.value;
     const phoneNumber = e.target.phoneNumber.value;
     const dateOfBirth = e.target.dateOfBirth.value;
@@ -25,7 +24,7 @@ const ProfileComponent = () => {
         firstName,
         lastName,
         middleName,
-        NiNMCRand,
+        ninmc,
         email,
         phoneNumber,
         dateOfBirth,
