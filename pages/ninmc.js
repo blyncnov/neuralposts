@@ -57,6 +57,15 @@ const ProfileComponent = () => {
 
   return (
     <>
+      <div className="wordmote">
+        <p>
+          <strong>Note :</strong>
+          <br />
+          <br />
+          Abeg, no enter your real data oh , you can Choose a New Identity for
+          yourself &apos;dummy data .
+        </p>
+      </div>
       <div className="NeuralPost__Constraint">
         <ToastContainer />
 
@@ -64,7 +73,7 @@ const ProfileComponent = () => {
           <br />
           <div className="profile__other__infomation">
             <div className="profile__dashboard__widget extra__additional__info">
-              <h4>Create New Student Account</h4>
+              <h4>Create New NINMC Record</h4>
               <br />
               <hr />
               <br></br>
@@ -166,6 +175,8 @@ const ProfileComponent = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </>
   );
 };
