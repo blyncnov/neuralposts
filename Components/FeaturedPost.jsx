@@ -2,12 +2,13 @@ import React from "react";
 import Image from "next/image";
 
 const FeaturedPost = ({ news }) => {
+  console.log(news);
   return (
     <div>
       <div className="FeaturedPost__Container">
-        {news.articles.map((post) => {
+        {news.articles.map((post, index) => {
           return (
-            <div key={post.id}>
+            <div key={index}>
               <div className="FeaturedPost__Container--box">
                 <div className="FeaturedPost__Container--box--image">
                   <Image
