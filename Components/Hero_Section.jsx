@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Hello , Welcome To My Blog 👋</h1>
         <br />
         <h4>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quod
+          Taiwo Boluwatife (blyncnov) blog, amet consectetur adipisicing elit. Odio quod
           recusandae iste alias quasi natus aspernatur officiis ipsum. Soluta
           quibusdam nemo tempore perferendis magnam sapiente non aspernatur,
           ipsa aliquid ducimus!
